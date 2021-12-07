@@ -27,7 +27,11 @@ import styled from "styled-components";
   const Logo = styled.h1``;
   
   const Desc = styled.p`
+    width: 50%;
     margin: 20px 0px;
+    margin-left: 200px;
+    justify-content: right;
+    align-items: right;
   `;
   
   const SocialContainer = styled.div`
@@ -46,30 +50,16 @@ import styled from "styled-components";
     align-items: center;
     justify-content: center;
     margin-right: 20px;
+    cursor: pointer;
   `;
   
-  const Center = styled.div`
-    flex: 1;
-    padding: 20px;
-    
-  `;
+  
   
   const Title = styled.h3`
     margin-bottom: 30px;
   `;
   
-  const List = styled.ul`
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-  `;
   
-  const ListItem = styled.li`
-    width: 50%;
-    margin-bottom: 10px;
-  `;
   
   const Right = styled.div`
     flex: 1;
@@ -87,7 +77,7 @@ import styled from "styled-components";
   `;
   
   const Payment = styled.img`
-      width: 50%;
+      width: 30%;
   `;
   
   const Footer = () => {
@@ -96,9 +86,9 @@ import styled from "styled-components";
         <Left>
           <Logo>ReCompen.</Logo>
           <Desc>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don’t look even slightly believable.
+            ReCompen. is a ticket compensating and refunding service.
+            It acts as a assurer and contract keeper between customer and 
+            transportation service providing company. 
           </Desc>
           <SocialContainer>
             <SocialIcon color="3B5999">
@@ -115,20 +105,7 @@ import styled from "styled-components";
             </SocialIcon>
           </SocialContainer>
         </Left>
-        <Center>
-          <Title>Useful Links</Title>
-          <List>
-            <ListItem>Home</ListItem>
-            <ListItem>Register</ListItem>
-            <ListItem>Bus</ListItem>
-            <ListItem>Log In</ListItem>
-            
-            <ListItem>Train</ListItem>
-            <ListItem>Aeroplane</ListItem>
-            <ListItem>Ship</ListItem>
-            <ListItem>Terms</ListItem>
-          </List>
-        </Center>
+        
         <Right>
           <Title>Contact</Title>
           <ContactItem>
