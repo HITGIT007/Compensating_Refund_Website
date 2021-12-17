@@ -87,7 +87,7 @@ import styled from "styled-components";
           <Logo>ReCompen.</Logo>
           <Desc>
             ReCompen. is a ticket compensating and refunding service.
-            It acts as a assurer and contract keeper between customer and 
+            It acts as an assurer and contract keeper between customer and 
             transportation service providing company. 
           </Desc>
           <SocialContainer>
